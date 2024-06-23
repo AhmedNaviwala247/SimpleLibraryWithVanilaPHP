@@ -5,12 +5,14 @@ session_start();
 
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once "commonfunc.php";
+require_once "secret.php";
+
 
 
 
 $client = new Google\Client();
-$client->setClientId("927261942785-7dvm38bf6o1iqp2b7o8ojl6bqlql53kp.apps.googleusercontent.com");
-$client->setClientSecret("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");
+$client->setClientId($clientID);
+$client->setClientSecret($clientSecret);
 $client->setRedirectUri("http://localhost:8000/callback.php");
 $client->setAccessType('offline');
 $client->setApprovalPrompt('force');
