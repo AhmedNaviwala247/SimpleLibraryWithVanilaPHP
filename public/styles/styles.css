@@ -1,0 +1,290 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.container-w400 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #333;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #8959a9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header h1 {
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card-btn {
+    padding: 5px 10px;
+    height: 40px;
+    background-color: #fff;
+    color: #333;
+    border-color: #e7e7e7;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+.card-btn:hover {
+    background-color: #ccc;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .pagination {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pagination a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .pagination a:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .pagination .active {
+    background-color: #333;
+    color: #fff;
+  }
+  /* Add this CSS after your existing styles */
+
+/* Add this CSS after your existing styles */
+
+.book-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-info {
+    flex-grow: 1;
+    margin-left: 20px; /* Changed from margin-right */
+}
+
+.book-cover img {
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviews {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.review {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.review p {
+    margin: 0;
+    color: #555;
+}
+
+.post-review {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.post-review h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.post-review form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-review label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.post-review input[type="text"],
+.post-review textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.post-review button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.post-review button[type="submit"]:hover {
+    background-color: #333;
+}
